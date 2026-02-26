@@ -3,6 +3,10 @@
   Crypto News Aggregation · AI Ratings · Trading Signals · Real-time Updates
 </p>
 
+<p align="center">
+  <a href="./README.md">English</a> | <a href="./docs/README_ZH.md">中文</a> | <a href="./docs/README_JA.md">日本語</a> | <a href="./docs/README_KO.md">한국어</a>
+</p>
+
 ---
 
 ## Quick Install
